@@ -1,5 +1,5 @@
 plugins {
-    id("com.gradle.enterprise").version("3.1.1")
+    id("polly.com.gradle.enterprise").version("3.1.1")
 }
 
 gradleEnterprise {
@@ -10,4 +10,4 @@ gradleEnterprise {
     }
 }
 
-include(":app")
+include(":COVID19")
